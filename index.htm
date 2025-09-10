@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Welcome to My Website</h1>
+    <h2>Home Page</h2>
+    <h3>Designed by Kassim Kamba</h3>
+
+    <!-- Paragraph -->
+    <p>This is the home page. It demonstrates core HTML features like images, lists, tables, forms, and links.</p>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/200" alt="Sample Image">
+
+    <!-- List -->
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Football</li>
+    </ul>
+
+    <!-- Table -->
+    <h3>My Weekly Schedule</h3>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Day</th>
+            <th colspan="2">Activities</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td>Morning</td>
+            <td>Lectures</td>
+        </tr>
+        <tr>
+            <td>Afternoon</td>
+            <td>Football Training</td>
+        </tr>
+    </table>
+
+    <!-- Internal Hyperlink -->
+    <p><a href="about.html">Go to About Page</a></p>
+
+    <!-- External Hyperlink -->
+    <p><a href="https://www.ndejjeuniversity.ac.ug" target="_blank">Visit Ndejje University</a></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>About This Website</h1>
+    <p>This page provides more information and includes a simple HTML form.</p>
+
+    <!-- Form -->
+    <h3>Contact Me</h3>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Internal Hyperlink back -->
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: darkblue;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
